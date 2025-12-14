@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Tranquil — Gray Home Screen</title>
+    <meta
+      name="description"
+      content="A super simple page to download the Tranquil gray background and add a matching icon to your iPhone Home Screen."
+    />
+
+    <meta name="theme-color" content="#262626" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Tranquil" />
+
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png" />
+
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="card" role="main">
+      <header class="header">
+        <div class="mark" aria-hidden="true"></div>
+        <div>
+          <h1>Tranquil</h1>
+          <p class="sub">Make your Home Screen boring.</p>
+        </div>
+      </header>
+
+      <section class="section">
+        <h2>1) Download the gray background</h2>
+        <p>
+          Tap the button, then on iPhone press and hold the image → <strong>Save to Photos</strong>.
+          Set it as your Home Screen wallpaper.
+        </p>
+        <p class="actions">
+          <a class="button" href="/assets/gray-background.png">Open background</a>
+          <a class="button secondary" href="/assets/gray-background.png" download>Download</a>
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>2) Add to Home Screen (optional)</h2>
+        <ol>
+          <li>Open this page in Safari.</li>
+          <li>Tap the Share button.</li>
+          <li>Tap <strong>Add to Home Screen</strong>.</li>
+        </ol>
+        <p class="hint">
+          The Home Screen icon uses Tranquil’s gray app icon (via <code>apple-touch-icon</code>).
+        </p>
+      </section>
+
+      <footer class="footer">
+        <a href="/assets/gray-background.png">Background image</a>
+      </footer>
+    </main>
+  </body>
+</html>
